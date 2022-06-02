@@ -91,7 +91,15 @@ body {
 }
 .main__card-text {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 15px;
   text-align: right;
+}
+.footer {
+  margin-top: 30px;
+}
+.footer__link {
+  font-size: 12px;
+  margin-left: 90%;
+  color: #ffffff;
 }
