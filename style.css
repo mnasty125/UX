@@ -1,0 +1,97 @@
+body {
+  background-color: #444c5c;
+}
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.header__quote {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #e1b16a;
+  width: 50%;
+  margin-left: 50%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  color: #e1b16a;
+  margin-right: 150px;
+}
+.main__rules {
+  margin-bottom: 40px;
+}
+.main__rules:after {
+  content: "";
+  background-color: #ce5a57;
+  height: 5px;
+  display: block;
+}
+.main__check:after {
+  content: "";
+  background-color: #78a5a3;
+  height: 5px;
+  display: block;
+}
+.main__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.main__card {
+  width: 270px;
+  height: 270px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+.main__cards-first-line {
+  display: flex;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+.main__cards-second-line {
+  display: flex;
+  color: #444c5c;
+}
+.main__first-line-card {
+  background-color: #ce5a57;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__second-line-card {
+  background-color: #78a5a3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.main__card-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
