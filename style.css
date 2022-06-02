@@ -70,13 +70,13 @@ body {
   color: #444c5c;
 }
 .main__first-line-card {
-  background-color: #ce5a57;
+  background-color: #b4524f;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .main__second-line-card {
-  background-color: #78a5a3;
+  background-color: #7eb1ae;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
