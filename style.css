@@ -1,5 +1,5 @@
 body {
-  background-color: #444c5c;
+  background-color: #3b4250;
 }
 .header {
   margin-top: 40px;
@@ -67,7 +67,7 @@ body {
 }
 .main__cards-second-line {
   display: flex;
-  color: #444c5c;
+  color: #3b4250;
 }
 .main__first-line-card {
   background-color: #b4524f;
@@ -76,7 +76,7 @@ body {
   justify-content: space-between;
 }
 .main__second-line-card {
-  background-color: #7eb1ae;
+  background-color: #8bc7c3;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
