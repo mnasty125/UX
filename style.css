@@ -1,5 +1,5 @@
 body {
-  background-color: #3b4250;
+  background-color: #343b47;
 }
 .header {
   margin-top: 40px;
@@ -41,7 +41,7 @@ body {
 }
 .main__check:after {
   content: "";
-  background-color: #78a5a3;
+  background-color: #8abebc;
   height: 5px;
   display: block;
 }
@@ -67,7 +67,7 @@ body {
 }
 .main__cards-second-line {
   display: flex;
-  color: #3b4250;
+  color: #343b47;
 }
 .main__first-line-card {
   background-color: #b4524f;
