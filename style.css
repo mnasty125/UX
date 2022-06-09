@@ -31,6 +31,8 @@ body {
   margin-right: 150px;
 }
 .main__rules {
+  color: #e1b16a;
+  text-decoration: none;
   margin-bottom: 40px;
 }
 .main__rules:after {
@@ -102,4 +104,35 @@ body {
   font-size: 12px;
   margin-left: 90%;
   color: #ffffff;
+}
+.check-main__container{
+  display: flex; 
+  align-items: center;
+}
+.check-main__title-container {
+  width: 100%;
+  background-color: #b4524f;
+  color: #e1b16a;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.check-main__points {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: #C4C4C4;
+  margin-left: 10%;
+}
+.check-main__back{
+  margin-left: 2%;
+  width: 15%;
+  height: 15%;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
