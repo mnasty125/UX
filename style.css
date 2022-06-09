@@ -105,14 +105,14 @@ body {
   margin-left: 90%;
   color: #ffffff;
 }
-.check-main__container{
-  display: flex; 
+.check-main__container {
+  display: flex;
   align-items: center;
 }
 .check-main__title-container {
   width: 100%;
   background-color: #b4524f;
-  color: #e1b16a;
+  color: #f1bf72;
   border-radius: 10px;
   padding-left: 30px;
   margin-left: 5%;
@@ -125,10 +125,10 @@ body {
   line-height: 30px;
   text-decoration-line: underline;
   text-transform: lowercase;
-  color: #C4C4C4;
+  color: #c4c4c4;
   margin-left: 10%;
 }
-.check-main__back{
+.check-main__back {
   margin-left: 2%;
   width: 15%;
   height: 15%;
