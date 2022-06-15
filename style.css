@@ -180,7 +180,6 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 0;
-  overflow: hidden;
 }
 .check-main__close {
   background-color: inherit;
