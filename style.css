@@ -217,6 +217,13 @@ body {
   line-height: 30px;
 }
 @media (max-width: 1024px) {
+  .header__quote {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .main__links {
+    font-size: 30px;
+  }
   .main__card {
     padding: 18px;
   }
@@ -231,10 +238,16 @@ body {
 }
 @media (max-width: 768px) {
   .header__quote {
-    font-size: 13px;
-    line-height: 20px;
-    margin-left: 30%;
-    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
+  .main__rules {
+    margin-bottom: 0px;
+  }
+  .main__links {
+    font-size: 24px;
   }
   .check-main__points {
     font-size: 22px;
@@ -247,6 +260,9 @@ body {
   }
   .main__cards-second-line {
     flex-direction: column;
+  }
+  .main__cards {
+    margin-top: 10px;
   }
   .main__card {
     width: 85vw;
@@ -267,12 +283,21 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .main__links {
+    font-size: 20px;
+  }
+  .main__card {
+    width: 80vw;
+    height: 180px;
+    margin-top: 3%;
+    padding: 12px;
+  }
   .main__card-title {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 22px;
   }
   .main__card-text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .check-main__points {
     font-size: 18px;
@@ -284,5 +309,10 @@ body {
   .check-main__info-text {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .header__quote {
+    font-size: 12px;
   }
 }
